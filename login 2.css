@@ -1,0 +1,124 @@
+/* body part css */
+
+
+body{
+    background-color:#7b7a7b ;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 360px;
+  height: 480px;
+  border-radius: 10px;
+  background: radial-gradient(
+  circle at 100%,
+  #2bffce,
+  #2bffdc 50%,
+  #eeeeee 75%,
+  #333333 75%
+);
+  
+}
+
+.center h1{
+  color: #333333;
+text-align: center;
+margin-top: 50px;
+font: 31px;
+font-weight: 800;
+} 
+
+.icons a{
+  color: #575555;
+  border-radius: 60%;
+  padding: 10px;
+  font-size: 12px;
+  text-align: center;
+  border: 2px solid rgba(107, 103, 103, 0.3);
+  
+}
+/* flex is used for social icons to display in center */
+.icons {
+  display: flex;
+  margin-left: 120px;
+  gap: 10px;
+}
+  .text{
+    margin-top: 15px;
+    margin-left: 0px;
+    text-align: center;
+    font-size: 16px;
+    color: #474747;
+
+
+  }
+
+  .form{
+    margin-left: 100px;
+        padding: 12px 15px;
+        font-size: 14px;
+        margin-left: 50px; 
+        height: 10px;
+        margin-right:60px ;
+        margin-top: -20px;
+        border-radius: 5px;
+        /* background-color: #eee; */
+
+  }
+.int1{
+  padding:12px 35px;
+  background-color:#eee;
+  border:1px solid black;
+  border: none;
+  width: 80%;
+}
+
+
+
+.pass{
+  margin-top: 50px;
+  color: #4b4a4a;
+  cursor: pointer;
+  margin-left: 80px;
+  font-size: 14px;
+  /* cursor: pointer;             */
+  text-decoration: none;      
+}
+
+.pass:hover {
+  text-decoration: underline; 
+}
+
+
+
+
+
+/* sign in button css part */
+
+.signup_link{
+  /* margin-top: 40px; */
+  text-align: center;
+  font-size: 16px;
+  /* color: #666666; */
+  line-height: 12px;
+  
+}
+
+
+.btn1 {
+  padding: 12px 45px;
+  border-radius: 20px;
+  border: none;
+  background-color: #FF4B2B;
+  font-weight:800;
+  letter-spacing: 1px;
+  color: white;
+  font-size:12px;
+  /* margin-top: -50px; */
+  /* margin-left: 60px; */
+}
